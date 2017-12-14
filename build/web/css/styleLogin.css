@@ -1,0 +1,74 @@
+#content{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+#content #inp{
+	width: 150px;
+    padding: 5px 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    float: right;
+}
+#content #bton{
+	width: 150px;
+    padding: 8px 15px;
+    color: white;
+    display: inline-block;
+    background-color: #387EFF;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    float: right;
+}
+body{
+	background-image: url("../img/flowerBG.jpg");
+	background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+}
+#content #btonbk{
+    width: 70px;
+    padding: 8px 8px;
+    color: white;
+    display: inline-block;
+    background-color: #387EFF;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#IN{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-80%, -310%);
+
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 150%;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-weight:bold;
+    font-family: Arial;
+}
+#content #forgot{
+    color: blue;
+    font-size: 70%;
+    transform: translate(35%, -90%);
+}
+a{
+    text-decoration: none;
+}

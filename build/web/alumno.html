@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Alumno</title>
+		<link rel="stylesheet" type="text/css" href="css/styleAlumno.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="/js/funcionAlumno.js"></script>
+                <script src="js/getInfo.js"></script>
+	</head>
+	<body>
+		<div id="alumno">
+			Alumno                      
+			<input type="button" id="bton" value="Imprimir" onclick="location.href='index.html';">
+			<input type="button" id="bton" value="Salir" onclick="location.href='index.html';">
+		</div>
+		<div id="content" class="flex-container">
+<div id="menu">
+        <form id="my_form" action="reporte">
+        <ul>
+	<li class="nivel1">
+        <a class="nivel1" onclick="document.getElementById('my_form').submit();">Informacion</a></li>
+	<li class="nivel1"><a href="#" class="nivel1">Reporte</a></li>
+	</ul>
+        </form>
+</div>
+
+<div id="vista">
+    <table id="myTable">
+            <tr>
+                <th>No. Control</th>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Grado</th>
+                <th>Grupo</th>
+            </tr>
+    </table>
+</div>
+
+		</div>
+
+	</body> 
+</html>

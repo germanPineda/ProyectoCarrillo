@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" /> 
+    <meta charset="utf-8" />
+
+    <title>Test</title>
+
+    <style type="text/css">
+      .hidden {
+        display: none;
+      }
+    </style>
+    <script>
+    	function pic1()
+        {
+            document.getElementById("leon").style.display = "hidden";
+        }
+        function pic2()
+        {
+        	document.getElementById("leon").src = "img/leonLogo.jpg";
+            document.getElementById("book").src ="picture 2 source";
+        }
+    </script>
+  </head>
+
+  <body>
+    <form>
+     </form>
+
+     <img src = "img/leonLogo.jpg" id = "leon"/>
+     <img src = "img/book.jpg" id = "book"/>
+      <a href="#" onclick="pic1()">asd</a> <input type="button" value="Show Picture 2"
+    onclick="pic2()"/>
+  </body>
+</html>
